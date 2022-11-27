@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  width: 100vw;
+  height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +37,46 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.box {
+  -ms-overflow-style: none;
+}
+.box::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+  font-family: "NotoSansKRBlack";
+  src: url("./fonts/NotoSansKR-Black.otf");
+}
+
+@font-face {
+  font-family: "NotoSansKRBold";
+  src: url("./fonts/NotoSansKR-Bold.otf");
+}
+
+@font-face {
+  font-family: "NotoSansKRLight";
+  src: url("./fonts/NotoSansKR-Light.otf");
+}
+
+@font-face {
+  font-family: "NotoSansKRMedium";
+  src: url("./fonts/NotoSansKR-Medium.otf");
+}
+
+@font-face {
+  font-family: "NotoSansKRRegular";
+  src: url("./fonts/NotoSansKR-Regular.otf");
+}
+
+@font-face {
+  font-family: "NotoSansKRThin";
+  src: url("./fonts/NotoSansKR-Thin.otf");
+}
+
+@font-face {
+  font-family: "VarelaRoundRegular";
+  src: url("./fonts/VarelaRound-Regular.ttf");
 }
