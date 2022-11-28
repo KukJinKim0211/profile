@@ -24,12 +24,17 @@
 
 /* 목차 폼 */
 .box_index {
-  width: 30%;
+  width: 20%;
   height: 100%;
 }
 
 /* 내용 폼 */
 .box_content {
-  width: 70%;
+  width: 80%;
   height: 100%;
+}
+
+/* First Page */
+.content_title_text {
+  font-size: 3rem;
 }

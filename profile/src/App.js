@@ -3,6 +3,7 @@ import { FullPage, Slide } from "react-full-page";
 import FirstPage from "./pages/FirstPage";
 import SecondPage from "./pages/SecondPage";
 import ThirdPage from "./pages/ThirdPage";
+import FourthPage from "./pages/FourthPage";
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
       </Slide>
       <Slide>
         <ThirdPage />
+      </Slide>
+      <Slide>
+        <FourthPage />
       </Slide>
     </FullPage>
   );
